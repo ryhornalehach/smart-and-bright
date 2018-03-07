@@ -1,9 +1,7 @@
-[ ![Codeship Status for ryhornalehach/nadin-paint](https://app.codeship.com/projects/addaf510-d58d-0135-6dca-1afc2eb9ace9/status?branch=master)](https://app.codeship.com/projects/263125)
-[![Coverage Status](https://coveralls.io/repos/github/ryhornalehach/nadin-paint/badge.svg?branch=master)](https://coveralls.io/github/ryhornalehach/nadin-paint?branch=master)
-[![Maintainability](https://api.codeclimate.com/v1/badges/f4d6e029a8e54eb065af/maintainability)](https://codeclimate.com/github/ryhornalehach/nadin-paint/maintainability)
+
 
 # Developed by: Ryhor (Greg) Nalehach
-NadinPaint portfolio website.
+SmartAndBright portfolio website.
 
 # Technologies used in the app:
   1. Ruby on Rails

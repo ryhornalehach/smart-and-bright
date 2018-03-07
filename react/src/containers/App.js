@@ -19,7 +19,6 @@ class App extends Component {
         <Router history={history}>
           <Switch>
             <Route exact path='/shop' component={Shop} />
-            // <Route exact path='/shop/:id' component={Shop} />
           </Switch>
         </Router>
       </div>

@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width">
-    <title>Nadin Paint</title>
+    <title>Smart and Bright. Busy boards, educational toys</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all' %>
@@ -16,18 +16,16 @@
       <nav class="grey darken-3 black-text">
         <div class="nav-wrapper">
           <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-          <a href="/" class="brand-logo right font-cursive">Nadin Paint</a>
+          <a href="/" class="brand-logo right font-cursive">Smart and Bright</a>
           <ul class="left hide-on-med-and-down compress">
             <% if current_user %>
               <li><%= link_to "Sign out", destroy_user_session_path, :method => :delete %></li>
               <li><%= link_to "Profile", current_user %> </li>
               <li><%= link_to "Users", users_path %></li>
-              <li><%= link_to "Categories", categories_path %></li>
-              <li><%= link_to "Artworks", artworks_path %></li>
             <% else %>
               <li><%=link_to "Sign In", new_user_session_path %></li>
             <% end %>
-            <li><%= link_to "Gallery", '/gallery' %> </li>
+            <li><%= link_to "Shop", '/shop' %> </li>
             <li><%= link_to "About", root_path %> </li>
           </ul>
           <ul class="side-nav flow-text" id="mobile-demo">
@@ -35,12 +33,10 @@
               <li><%= link_to "Sign out", destroy_user_session_path, :method => :delete %></li>
               <li><%= link_to "Profile", current_user %> </li>
               <li><%= link_to "Users", users_path %></li>
-              <li><%= link_to "Categories", categories_path %></li>
-              <li><%= link_to "Artworks", artworks_path %></li>
             <% else %>
               <li><%=link_to "Sign In", new_user_session_path %></li>
             <% end %>
-            <li><%= link_to "Gallery", './gallery' %> </li>
+            <li><%= link_to "Shop", './shop' %> </li>
             <li><%= link_to "About", root_path %> </li>
           </ul>
         </div>
