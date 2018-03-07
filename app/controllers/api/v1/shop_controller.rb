@@ -1,7 +1,6 @@
 require 'uri'
 
 class Api::V1::ShopController < ApplicationController
-  skip_before_action :verify_authenticity_token
 
   def index
       listings = [] # creating an empty array to store the results

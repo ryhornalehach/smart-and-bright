@@ -6,7 +6,7 @@ const ItemTile = props => {
 
     <div className="no-padding col s12 m4 l3">
         <div className="boxed">
-            <img src={props.photo} className="img-box"></img>
+            <a href={props.url}><img src={props.photo} className="img-box"></img></a>
         </div>
     </div>
   )
