@@ -8,9 +8,6 @@ gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
 gem 'listen'
 gem "devise"  # autentication
-gem "carrierwave" # uploading files gem
-gem "mini_magick" # resizing uploaded images
-gem 'fog'   # cloud service library (needed for AWS)
 gem 'materialize-sass'  # adding materialize css
 
 group :development, :test do
