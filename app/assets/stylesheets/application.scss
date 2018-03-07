@@ -1,0 +1,87 @@
+@import "materialize";   //// import Materialize styling first
+@import "*";           //// import all other .css files
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.font-cursive {
+  font-family: 'Stalemate', cursive;
+}
+
+.font-cursive-shadow {
+  font-family: 'Stalemate', cursive;
+  text-shadow: 2px 2px 4px #ffffff;
+  font-size: 550%;
+}
+
+img .activator {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.caption-text-field {
+  background-color: white;
+  opacity: 0.85 !important;
+  width: 90%;
+  padding: 15px;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 100px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+a .font-cursive-shadow, p .font-cursive-shadow {
+  color: black;
+}
+
+a .font-cursive {
+  color: black;
+}
+
+.navbar-color {
+  background: #78909C;
+}
+
+.navbar-color-dark {
+  background: #607D8B;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.notice {
+  color: #018312;
+}
+
+.no-margin {
+  margin: auto;
+}
+
+.error {
+  color: #9c0900;
+}
+
+.large-140 {
+  font-size: 140%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.large-160 {
+  font-size: 160%;
+}
+
+.large-120 {
+  font-size: 120%;
+  opacity: 1;
+  color: black !important;
+  text-shadow: 2px 2px 4px #ffffff;
+}
