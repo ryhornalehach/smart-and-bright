@@ -10,7 +10,9 @@ class Api::V1::ShopController < ApplicationController
 
       result['results'].each do |lot|
           item = {}   # creating an empty hash to store the listing's data
-          item['title'] = lot['title']  # adding item title to the item hash
+          string_title = lot['title'][0..25]
+          string_title << ' ...'
+          item['title'] = string_title  # adding item title to the item hash
           item['price'] = lot['price']  # adding item price to the item hash
           item['url'] = lot['url']      # adding item url to the item hash
           item['listing_id'] = lot['listing_id']  # adding item ID to the item hash
