@@ -23,6 +23,7 @@ class Api::V1::ShopController < ApplicationController
           item['photo'] = result_photo['results'][0]['url_170x135']   # adding photo url to the item hash
 
           listings << item  # pushing the item to the array of listings
+          sleep(0.1) # need this delay because Etsy API only allows 10 calls per second
       end
 
       render json: { listings: listings }

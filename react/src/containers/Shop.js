@@ -34,6 +34,8 @@ class Shop extends Component {
               />
             )
           })
+    } else {
+      allItems = <h4 className="center-notice font-cursive"><i className="fa fa-cog fa-lg fa-spin" aria-hidden="true"></i> Loading shop items, please wait a second...</h4>
     }
 
     return (
