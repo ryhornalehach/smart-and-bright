@@ -25,3 +25,4 @@
 /coverage
 .yarn.lock
 .env
+.DS_Store
